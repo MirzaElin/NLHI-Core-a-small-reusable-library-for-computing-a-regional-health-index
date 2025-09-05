@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use NLHI Core in your research, please cite this package."
+title: "NLHI Core: reproducible computation of a regional health index"
+authors:
+  - family-names: "Elin"
+    given-names: "Mirza Niaz Zaman"
+version: "1.0.0"
+date-released: "2025-09-05"
+repository-code: "https://github.com/yourorg/nlhi"
+license: "MIT"

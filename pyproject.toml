@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nlhi"
+version = "1.0.0"
+description = "NLHI Core: compute Newfoundland & Labrador Health Index from domain TLIPHS and mortality inputs"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mirza Niaz Zaman Elin" }]
+requires-python = ">=3.9"
+keywords = ["public health", "composite index", "epidemiology", "Newfoundland and Labrador"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+  "Intended Audience :: Science/Research"
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourorg/nlhi"
+Documentation = "https://github.com/yourorg/nlhi#readme"
+Issues = "https://github.com/yourorg/nlhi/issues"
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+
+[project.scripts]
+nlhi = "nlhi.cli:main"
