@@ -44,4 +44,4 @@ store.upsert("Avalon", "2025-06-01", record)
 ```
 
 ## License
-MIT © 2025 Mirza Niaz Zaman Elin
+Custom © 2025 Mirza Niaz Zaman Elin
